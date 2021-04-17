@@ -1,5 +1,5 @@
 class TopsController < ApplicationController
   def index
-    @env = ENV["HIROKORE"]
+    @env = ENV["COMPANY"]
   end
 end
